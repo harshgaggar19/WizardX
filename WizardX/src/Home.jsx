@@ -100,21 +100,24 @@ const Home = () => {
 				</div>
 			</nav>
 			<hr />
-			<div className="center h-[65vh] w-[90vw] lg:w-[100vw] lg:flex p-5 lg:p-[50px] pb-0">
+			<div className="center h-[65vh] w-[90vw] lg:w-[100vw] flex mb-10 p-5 lg:p-[50px] pb-0">
 				<div className="center-part1 h-[100%] lg:w-[49%]">
-					<h1 className="text-5xl lg:text-7xl font-bold china leading-[1.15]">
-						Navigating the digital landscape for success...
-					</h1>
-					<p className="text-sm lg:text-lg w-fit lg:w-[95%] mt-6 mb-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, qui!
-						Distinctio rerum sunt perferendis culpa a tempore ratione, magnam
-						dolore, accusamus quaerat soluta quas in, cum libero ex excepturi
-						placeat.
-					</p>
-
-					<button className="px-3 py-1 text-md lg:text-lg lg:px-5 lg:py-3 rounded-md bg-slate-900 text-white mt-3 hover:shadow-slate-400 shadow-lg">
-						Book a Consultaion
-					</button>
+					<div>
+						<h1 className="text-5xl sm:text-7xl font-bold china leading-[1.15]">
+							Navigating the digital landscape for success...
+						</h1>
+						<p className="text-md md:text-lg w-fit lg:w-[95%] mt-6 mb-6">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+							qui! Distinctio rerum sunt perferendis culpa a tempore ratione,
+							magnam dolore, accusamus quaerat soluta quas in, cum libero ex
+							excepturi placeat.
+						</p>
+					</div>
+					<div>
+						<button className="px-3 py-1 text-md lg:text-lg lg:px-5 lg:py-3 rounded-md bg-slate-900 text-white mt-3 hover:shadow-slate-400 shadow-lg">
+							Book a Consultaion
+						</button>
+					</div>
 				</div>
 				<div className="center-part2 hidden lg:block h-[100%] w-[55%] relative">
 					<img
@@ -124,7 +127,7 @@ const Home = () => {
 					/>
 				</div>
 			</div>
-			<div className="sectionbottom w-full h-[100vh] lg:mt-5  lg:ml-10 flex flex-row flex-wrap ">
+			<div className="sectionbottom w-full h-[100vh] lg:mt-5  lg:ml-10 hidden lg:flex flex-row flex-wrap ">
 				<img
 					src="https://freelogopng.com/images/all_img/1688364239amazon-logo-black.png"
 					alt=""
@@ -156,6 +159,7 @@ const Home = () => {
 					className="h-[20px] relative top-4 lg:h-[60px] m-10"
 				/>
 			</div>
+			<br />
 		</section>
 	);
 };

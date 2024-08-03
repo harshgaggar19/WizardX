@@ -46,10 +46,18 @@ const SVG = () => {
 	}, []);
 
 	return (
-		<div id="string" className="w-full px-72 h-[100px] relative" ref={stringRef}>
-			<svg width="1000" height="200">
+		<div
+			id="string"
+			className="w-full h-[100px] relative mx-auto px-4 sm:px-8 md:px-16 lg:px-32 xl:px-72"
+			ref={stringRef}
+		>
+			<svg
+				className="w-full h-full"
+				viewBox="0 0 1000 200"
+				preserveAspectRatio="none"
+			>
 				<path
-					d="M 10 10 Q 500 100 990 10"
+					d="M 10 100 Q 500 100 990 100"
 					stroke="white"
 					fill="transparent"
 				/>

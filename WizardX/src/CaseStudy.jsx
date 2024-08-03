@@ -65,7 +65,7 @@ const CaseStudy = () => {
 					<h2 className="lg:text-3xl text-lg w-[75%] china font-bold px-2">
 						Let's make this happen..
 					</h2>
-					<p className="flex w-[75%] items-center text-md lg:text-lg px-2">
+					<p className="flex w-[75%] items-center text-sm sm:text-md lg:text-lg px-2">
 						Contact us today to learn more about how our digital marketing
 						services can help you business grow and succeed online.
 					</p>

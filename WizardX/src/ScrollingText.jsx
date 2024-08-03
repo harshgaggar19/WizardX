@@ -41,7 +41,7 @@ const ScrollingText = () => {
 						<img
 							src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg"
                           alt="img"
-                          className='h-[3vw]'
+                          className='sm:h-[3vw] h-[9vw]'
 						/>
 					</div>
 					<div className="marque flex china items-center gap-[3vw] px-5  flex-shrink-0 translate-x-[-100%]">

@@ -39,11 +39,11 @@ const HamMenu = ({menu}) => {
 				className="relative left-64 z-[40] invert"
 				onClick={handleClick}
 			/>
-			<h4 className="hover:underline">About Us</h4>
-			<h4 className="hover:underline">Services</h4>
-			<h4 className="hover:underline">Use cases</h4>
-			<h4 className="hover:underline">Blog</h4>
-			<h4 className="hover:underline">Pricing</h4>
+			<h4 className="underline-animation">About Us</h4>
+			<h4 className="underline-animation">Services</h4>
+			<h4 className="underline-animation">Use cases</h4>
+			<h4 className="underline-animation">Blog</h4>
+			<h4 className="underline-animation">Pricing</h4>
 			<button className="border-2 px-5 py-1 mt-4 bg-white text-black font-semibold rounded-lg hover:bg-slate-200 ">
 				Request a quote
 			</button>
