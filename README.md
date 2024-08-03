@@ -1,5 +1,7 @@
 # 🚀 WizardX
 
+![Home Page](WizardX/public/WizardX_LandingPage.png)
+
 Welcome to my new website project! This site is built using React, Vite, TailwindCSS, and GSAP, along with a few additional libraries. The goal of this project was to get hands-on experience with GSAP and explore its animation capabilities.
 
 ## 🛠️ Technologies Used
