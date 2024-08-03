@@ -29,15 +29,15 @@ const Home = () => {
 			"-=0.3"
 		);
 		tl.from(".center-part1 p", {
-			x: 500,
+			x: 300,
 			opacity: 0,
 			duration: 1,
 		},"-=0.3");
-        // tl.from(".center-part1 button", {
-        //     x:-30,
-		// 	opacity: 0,
-		// 	duration: 0.4,
-		// });
+        tl.from(".center-part1 button", {
+            x:-30,
+			opacity: 0,
+			duration: 0.4,
+		});
 		tl.from(
 			".center-part2 img",
 			{
