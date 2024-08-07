@@ -121,7 +121,7 @@ const Home = () => {
 				</div>
 				<div className="center-part2 hidden lg:block h-[100%] w-[55%] relative">
 					<img
-						src="https://www.rsmediasolution.in/Hero.svg"
+						src="./hero.avif"
 						alt=""
 						className="h-[100%] absolute right-20"
 					/>

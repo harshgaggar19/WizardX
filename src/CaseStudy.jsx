@@ -75,7 +75,7 @@ const CaseStudy = () => {
 				</div>
 				<div className="elem-part2 h-[100%] w-[50%] hidden lg:block">
 					<img
-						src="https://www.rsmediasolution.in/Hero.svg"
+						src="./hero.avif"
 						alt=""
 						className="h-[100%] lg:relative left-20"
 					/>

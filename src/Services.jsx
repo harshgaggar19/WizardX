@@ -100,11 +100,7 @@ const Services = () => {
 						</h4>
 					</div>
 					<div className="elem-part2 h-[100%] w-[50%]">
-						<img
-							src="https://www.rsmediasolution.in/Hero.svg"
-							alt=""
-							className="h-[100%]"
-						/>
+						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
 				<div className="elem line1 right lg:w-[45%] bg-[#B9FF66] text-white">
@@ -118,11 +114,7 @@ const Services = () => {
 						</h4>
 					</div>
 					<div className="elem-part2 h-[100%] w-[50%]">
-						<img
-							src="https://www.rsmediasolution.in/Hero.svg"
-							alt=""
-							className="h-[100%]"
-						/>
+						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
 				<div className="elem line2 left lg:w-[45%] bg-[#B9FF66] text-white ">
@@ -137,11 +129,7 @@ const Services = () => {
 						</h4>
 					</div>
 					<div className="elem-part2 h-[100%] w-[50%]">
-						<img
-							src="https://www.rsmediasolution.in/Hero.svg"
-							alt=""
-							className="h-[100%]"
-						/>
+						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
 				<div className="elem line2 right text-black lg:w-[45%] bg-white">
@@ -155,11 +143,7 @@ const Services = () => {
 						</h4>
 					</div>
 					<div className="elem-part2 h-[100%] w-[50%]">
-						<img
-							src="https://www.rsmediasolution.in/Hero.svg"
-							alt=""
-							className="h-[100%]"
-						/>
+						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
 			</div>
