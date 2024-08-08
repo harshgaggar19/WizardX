@@ -99,7 +99,7 @@ const Services = () => {
 							Learn More
 						</h4>
 					</div>
-					<div className="elem-part2 h-[100%] w-[50%]">
+					<div className="elem-part2 h-[100%] w-[50%] hidden sm:block">
 						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
@@ -113,7 +113,7 @@ const Services = () => {
 							Learn More
 						</h4>
 					</div>
-					<div className="elem-part2 h-[100%] w-[50%]">
+					<div className="elem-part2 h-[100%] w-[50%] hidden sm:block">
 						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
@@ -128,7 +128,7 @@ const Services = () => {
 							Learn More
 						</h4>
 					</div>
-					<div className="elem-part2 h-[100%] w-[50%]">
+					<div className="elem-part2 h-[100%] w-[50%] hidden sm:block">
 						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
@@ -142,7 +142,7 @@ const Services = () => {
 							Learn More
 						</h4>
 					</div>
-					<div className="elem-part2 h-[100%] w-[50%]">
+					<div className="elem-part2 h-[100%] w-[50%] hidden sm:block">
 						<img src="./hero.avif" alt="" className="h-[100%]" />
 					</div>
 				</div>
