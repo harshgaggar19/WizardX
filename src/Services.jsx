@@ -88,9 +88,9 @@ const Services = () => {
 					explicabo temporibus dolorum!
 				</p>
 			</div>
-			<div className="container h-[86%] w-[100%] px-2 lg:px-32 py-10 lg:flex justify-evenly flex-wrap gap-16">
+			<div className="container h-[86%] w-full px-2 lg:px-32 py-10 lg:flex justify-evenly flex-wrap gap-16">
 				<div className="elem lg:w-[45%] line1 left bg-white text-black">
-					<div className="elem-part1 h-[100%] lg:w-[50%] flex items-center justify-evenly lg:justify-between flex-col py-4">
+					<div className="elem-part1 h-[100%] lg:w-[50%] w-[100%] flex items-center justify-evenly lg:justify-between flex-col py-4">
 						<h2 className="text-xl w-[75%] china font-bold bg-[#B9FF66] px-2">
 							Search engine optimization
 						</h2>
@@ -104,7 +104,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="elem line1 right lg:w-[45%] bg-[#B9FF66] text-white">
-					<div className="elem-part1 h-[100%] lg:w-[50%] flex items-center justify-evenly lg:justify-between  flex-col py-4">
+					<div className="elem-part1 h-[100%] lg:w-[50%] w-[100%] flex items-center justify-evenly lg:justify-between  flex-col py-4">
 						<h2 className="text-xl w-[75%] china font-bold bg-black px-2">
 							Pay per click advertisement
 						</h2>
@@ -118,7 +118,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="elem line2 left lg:w-[45%] bg-[#B9FF66] text-white ">
-					<div className="elem-part1 h-[100%] lg:w-[50%] flex items-center justify-evenly lg:justify-between flex-col py-4">
+					<div className="elem-part1 h-[100%] lg:w-[50%] w-[100%] flex items-center justify-evenly lg:justify-between flex-col py-4">
 						<h2 className="text-xl w-[75%] china font-bold bg-black px-2">
 							Social media marketing
 						</h2>
@@ -133,7 +133,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="elem line2 right text-black lg:w-[45%] bg-white">
-					<div className="elem-part1 h-[100%] lg:w-[50%] flex items-center justify-evenly lg:justify-between  flex-col py-4">
+					<div className="elem-part1 h-[100%] lg:w-[50%] w-[100%] flex items-center justify-evenly lg:justify-between  flex-col py-4">
 						<h2 className="text-xl w-[75%] china font-bold bg-[#B9FF66] px-2">
 							E-mail marketing
 						</h2>
