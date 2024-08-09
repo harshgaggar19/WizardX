@@ -9,51 +9,51 @@ import HamMenu from "./HamMenu";
 
 const Home = () => {
     const [menu, setMenu] = useState(false)
-	// useGSAP(() => {
-    //     const tl = gsap.timeline();
+	useGSAP(() => {
+        const tl = gsap.timeline();
         
-	// 	tl.from("nav h4,nav button", {
-	// 		y: -40,
-	// 		duration: 0.3,
-	// 		opacity: 0,
-	// 		delay: 2.5,
-	// 		stagger: 0.15,
-	// 	});
-	// 	tl.from(
-	// 		".center-part1",
-	// 		{
-	// 			x: -200,
-	// 			opacity: 0,
-	// 			duration: 1,
-	// 		},
-	// 		"-=0.3"
-	// 	);
-	// 	tl.from(".center-part1 p", {
-	// 		x: 300,
-	// 		opacity: 0,
-	// 		duration: 1,
-	// 	},"-=0.3");
-    //     tl.from(".center-part1 button", {
-    //         x:-30,
-	// 		opacity: 0,
-	// 		duration: 0.4,
-	// 	});
-	// 	tl.from(
-	// 		".center-part2 img",
-	// 		{
-	// 			opacity: 0,
-	// 			duration: 0.5,
-	// 			x: 200,
-	// 		},
-	// 		"-=1"
-	// 	);
-	// 	tl.from(".sectionbottom img", {
-	// 		opacity: 0,
-	// 		y: 30,
-	// 		stagger: 0.15,
-	// 		duration: 0.6,
-	// 	});
-    // });
+		tl.from("nav h4,nav button", {
+			y: -40,
+			duration: 0.3,
+			opacity: 0,
+			delay: 2.5,
+			stagger: 0.15,
+		});
+		tl.from(
+			".center-part1",
+			{
+				x: -200,
+				opacity: 0,
+				duration: 1,
+			},
+			"-=0.3"
+		);
+		tl.from(".center-part1 p", {
+			x: 300,
+			opacity: 0,
+			duration: 1,
+		},"-=0.3");
+        tl.from(".center-part1 button", {
+            x:-30,
+			opacity: 0,
+			duration: 0.4,
+		});
+		tl.from(
+			".center-part2 img",
+			{
+				opacity: 0,
+				duration: 0.5,
+				x: 200,
+			},
+			"-=1"
+		);
+		tl.from(".sectionbottom img", {
+			opacity: 0,
+			y: 30,
+			stagger: 0.15,
+			duration: 0.6,
+		});
+    });
     
     
     useEffect(() => {
